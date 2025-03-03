@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LoginRegister.Migrations
 {
     [DbContext(typeof(LoginDbContext))]
-    [Migration("20250303193956_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250303200737_First")]
+    partial class First
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
